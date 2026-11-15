@@ -3,16 +3,15 @@
 ## Overview
 
 1. [Description](#description)
-2. [Deployment Link](#deployment-link)
-3. [Installation](#installation)
-4. [Technologies Used](#technologies)
-5. [Deliverables](#deliverables)
-6. [Planning](#planning)
-7. [Build Process](#build-process)
-8. [Challenges](#challenges)
-9. [Wins](#wins)
-10. [Key Learnings & Takeaways](#takeaways)
-11. [Future Improvements](#future-improvements)
+2. [Installation](#installation)
+3. [Technologies Used](#technologies)
+4. [Deliverables](#deliverables)
+5. [Planning](#planning)
+6. [Build Process](#build-process)
+7. [Challenges](#challenges)
+8. [Wins](#wins)
+9. [Key Learnings & Takeaways](#takeaways)
+10. [Future Improvements](#future-improvements)
 
 ## <a name="description"></a> 1. Description
 
@@ -25,16 +24,7 @@ The user can add movies and tv shows to a 'watched' and a 'to-watch' list, mark 
 
 ---
 
-## <a name="deployment-link"></a> 2. Deployment link
-
-- The project is hosted online on GitHub pages: htts://katieloesch.github.io/project-2-react-film-app/
-
-After submission of this project during the General Assembly Software Engineering Immersive course I continued working on this project. One of the major changes made was the inclusion of firebase/firestore to store user data so it persists after reload. I also implemented a fully responsive design. This updated version of the project also uses React.useContext to manage state globally rather than using props. The reworked of the project can be found at:
-
-- https://film-tv-stuff.katieloesch.co.uk/
-- https://github.com/katieloesch/project-2-react-film-app-revisited
-
-## <a name="installation"></a> 3. Installation
+## <a name="installation"></a> 2. Installation
 
 - package manager used: npm - v9.6.7
   - https://www.npmjs.com/package/npm
@@ -44,7 +34,7 @@ After submission of this project during the General Assembly Software Engineerin
 npm install
 ```
 
-## <a name="technologies"></a> 4. Technologies Used
+## <a name="technologies"></a> 3. Technologies Used
 
 This application is based in ReactJS(v18.2.0), JavaScript, JSX and CSS.
 
@@ -81,7 +71,7 @@ Additional components:
 - API used: TMDB - The Movie Database
   - https://www.themoviedb.org/?language=en-GB
 
-## <a name="deliverables"></a> 5. Deliverables
+## <a name="deliverables"></a> 4. Deliverables
 
 - Build a web application from scratch using the create-react-app command.
 - Plan application using wireframes and user stories
@@ -119,7 +109,7 @@ Additional components:
 - As a user, I should be able to search for movies from an external source.
 - As a user, I should be able to edit a movie.
 
-## 6. <a name="planning"></a> Planning
+## 5. <a name="planning"></a> Planning
 
 The plan was to create an intuitive and simple interface where the user can see the cover images of movies and tv shows so they can start adding different titles to their watchlist:
 
@@ -135,7 +125,7 @@ The Landing page should show some trending films and tv shows that the user can 
 
 ---
 
-## 7. <a name="build-process"></a> Build Process
+## 6. <a name="build-process"></a> Build Process
 
 ### Day 1 - 14/04/2023
 
@@ -254,18 +244,18 @@ changes include:
 the newer version of this application can be accessed at:
 https://film-tv-stuff.katieloesch.co.uk/
 
-## 8. <a name="challenges"></a> Challenges
+## 7. <a name="challenges"></a> Challenges
 
 - The main issue I got stuck on during this project was when editing items in the watchlist. Originally they wouldn't update immediatedly in the list and it would take changing tabs for changes to show up. One of the GA instructors then pointed out that I was not passing the setState function down as props. Once I did that it fixed the lagging issue.
 - I also realised that takings breaks when stuck and doing other work and come back to a problem at a later stage can be helpful. Aditionally, getting a fresh pair of eyes on a problem can speed the bug fixing process along as well.
 
-## 9. <a name="wins"></a> Wins
+## 8. <a name="wins"></a> Wins
 
 - I managed to complete all the MVP requirements for this project.
 - I managed to retrieve data from the TMDB API, process it and display it on the front end without any major issues.
 - Adding and removing input fields dynamically seemed complicated at first but once I understood the underlying logic it was easy to implement and makes adds to the aesthetic for the UI.
 
-## <a name="takeaways"> 10. Key Learnings & Takeaways
+## <a name="takeaways"> 9. Key Learnings & Takeaways
 
 - Working on this project has definitely improved my understanding of React and APIs.
 - I want to spend more time learning and practising responsive design as this is something I didn't have the time to fully implement for this project.
@@ -273,7 +263,7 @@ https://film-tv-stuff.katieloesch.co.uk/
 - Studying error messages carefully can help improve my code and make it more robust.
 - Planning different react components and props chain more carefully before starting to build them is worthwhile.
 
-## <a name="future-improvements"></a> 11. Future Improvements
+## <a name="future-improvements"></a> 10. Future Improvements
 
 - Incorporating additional APIs
 - Use React.Context to pass props down to children
